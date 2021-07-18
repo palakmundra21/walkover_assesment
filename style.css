@@ -2,6 +2,24 @@ body{
     margin-left: 0;
 }
 
+a:link {
+    color: red;
+  }
+  
+  a:visited {
+    color: green;
+  }
+  
+  
+  a:hover {
+    color: hotpink;
+  }
+  
+  
+  a:active {
+    color: blue;
+  }
+
 .long{
 	width: 30%;
 	height: 1200px;
