@@ -1,0 +1,101 @@
+body{
+    margin-left: 0;
+}
+
+.long{
+	width: 30%;
+	height: 1200px;
+	border: 1px solid red;
+	padding: 0.5em;
+    margin: 0.5em;
+    float: left;
+}
+
+.col {
+	width: 100%;
+	height: 100%;
+	background: tomato;
+}
+
+.col2 {
+	width: 100%;
+	height: 100%;
+	background: tomato;
+    position: relative;
+}
+
+.box1 {
+	width: 50%;
+	height: 100%;
+	border: 1px solid red;
+	float: left;
+	box-sizing: border-box;
+	padding: 0.5em;
+}
+
+.cont {
+	width: 100%;
+	height: 100%;
+	background: aqua;
+}
+
+.box2 {
+	width: 100%;
+	height: 50%;
+	border: 1px solid red;
+	box-sizing: border-box;
+	padding: 0.5em;
+}
+
+.cont2 {
+	width: 100%;
+	height: 100%;
+	background: aqua;
+}
+
+.col1{
+    height: 100%;
+    width: 10%;
+    background-color: aqua;
+    position: absolute;
+    left: 45%;
+}
+
+.row1{
+    height: 5%;
+    width: 100%;
+    background-color: aqua;
+    position: absolute;
+    top: 45%;
+
+}
+#myBtn
+{
+    background-color: green;
+    float:right;
+    font-size: 20px;
+    border-radius: 2px;
+    font-weight: bold;
+    font-style: sanserif;
+    color: white;
+    margin-right: 20px;
+}
+
+@media screen and (max-width: 768px){
+	.grid{
+		width: 100%;
+	}
+	.box1{
+		width: 100%;
+        height: 50%;
+	}
+    .box2{
+		width: 100%;
+	}
+}
+
+@media screen and (min-width: 769px ) and (max-width: 1200px){
+	.grid{
+		width: 100%;
+	}
+}
